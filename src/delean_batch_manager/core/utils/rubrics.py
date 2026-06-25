@@ -30,7 +30,7 @@ class RubricsCatalog:
     - Rest of file: Rubric content with level descriptions
     """
 
-    def __init__(self, rubrics_folder: str):
+    def __init__(self, rubrics_folder: str | Path):
         """
         Initialize the rubrics handler.
 
